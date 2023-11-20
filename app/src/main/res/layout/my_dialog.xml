@@ -54,7 +54,7 @@
             android:layout_height="match_parent"
             android:layout_weight="2"
             android:ems="10"
-            android:inputType="text"
+            android:inputType="numberSigned|numberDecimal"
             android:text="0"
             android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
@@ -83,7 +83,7 @@
             android:layout_height="match_parent"
             android:layout_weight="2"
             android:ems="10"
-            android:inputType="text"
+            android:inputType="numberSigned|numberDecimal"
             android:text="0"
             android:textAppearance="@style/TextAppearance.AppCompat.Large" />
     </LinearLayout>

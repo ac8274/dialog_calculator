@@ -234,14 +234,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
     public static boolean check_valid_value(String num){
         /* function gets a string and checks if it could be turned into a double.*/
-        try{
-            double f = strToDouble(num);
-            return true;
-        }
-        catch (Exception e) // if exception rises then string can't be convereted.
-        {
-            return false;
-        }
+        return !num.isEmpty();
     }
     public static boolean Engineering_or_Not(RadioButton rb1)
     {
